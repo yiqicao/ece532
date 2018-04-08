@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sat Mar 24 20:56:17 2018
+# Process ID: 3560
+# Current directory: C:/Xilinx/ECE532/Nexys-Video-HDMI/proj/vip_testing/vip_testing.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Xilinx/ECE532/Nexys-Video-HDMI/proj/vip_testing/vip_testing.sim/sim_1/behav/xsim.dir/tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Xilinx/ECE532/Nexys-Video-HDMI/proj/vip_testing/vip_testing.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Xilinx/ECE532/Nexys-Video-HDMI/proj/vip_testing/vip_testing.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+INFO: [Common 17-1460] Use of init.tcl in C:/Xilinx/Vivado/2017.2/scripts/init.tcl is deprecated. Please use Webtalk_init.tcl 
+Sourcing tcl script 'C:/Xilinx/Vivado/2017.2/scripts/init.tcl'
+ERROR: [Common 17-153] Param 'board.repoPaths' does not exist
+INFO: [Common 17-206] Exiting Webtalk at Sat Mar 24 20:56:17 2018...

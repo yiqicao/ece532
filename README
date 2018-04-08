@@ -1,0 +1,17 @@
+The Nexys-Video-HDMI directory contains the main project. This directory was
+the result of unzipping the zip file from the HDMI tutorial. The proj
+subdirectory contains the final block design, and the proj/HDMI.sdk
+subdirectory contains the videodemo project that is used to control the design.
+
+The motion_detector_2.0 directory contains the motion detection custom IP.
+
+The vip_testing directory contains the block design and testbench that use
+an AXI VIP to test the custom IP.
+
+The ethernet_tutorial directory contains the block design and sdk project
+that was used to implement and test sending video frames over Ethernet.
+The main sdk project used is named ethernet_tutorial.
+
+The python directory contains the Python server that receives the data sent
+by the FPGA, a script that converts video frame memory dumps to bmp files,
+and the software implementation of the motion detection algorithm.

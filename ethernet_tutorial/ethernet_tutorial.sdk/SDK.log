@@ -1,0 +1,208 @@
+23:03:38 INFO  : Registering command handlers for SDK TCF services
+23:03:41 INFO  : Launching XSCT server: xsct.bat -interactive C:\Xilinx\ECE532\ethernet_tutorial\ethernet_tutorial.sdk\temp_xsdb_launch_script.tcl
+23:03:47 INFO  : XSCT server has started successfully.
+23:04:04 INFO  : Processing command line option -hwspec C:/Xilinx/ECE532/ethernet_tutorial/ethernet_tutorial.sdk/design_1_wrapper.hdf.
+23:04:04 INFO  : Successfully done setting XSCT server connection channel  
+23:04:04 INFO  : Successfully done setting SDK workspace  
+23:07:45 INFO  : Refreshed build settings on project ethernet_tutorial
+23:13:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:13:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276723565B" && level==0} -index 0' command is executed.
+23:14:04 INFO  : FPGA configured successfully with bitstream "C:/Xilinx/ECE532/ethernet_tutorial/ethernet_tutorial.sdk/design_1_wrapper_hw_platform_0/download.bit"
+23:17:36 INFO  : Processor reset is completed for microblaze_0
+23:19:36 INFO  : Processor reset is completed for microblaze_0
+23:23:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:23:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276723565B" && level==0} -index 0' command is executed.
+23:23:43 INFO  : FPGA configured successfully with bitstream "C:/Xilinx/ECE532/ethernet_tutorial/ethernet_tutorial.sdk/design_1_wrapper_hw_platform_0/download.bit"
+23:23:55 INFO  : Processor reset is completed for microblaze_0
+23:24:27 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:24:32 INFO  : Processor reset is completed for microblaze_0
+23:25:06 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:25:07 INFO  : Processor reset is completed for microblaze_0
+23:33:25 ERROR : Unexpected error while fetching XMD's response: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.read(BufferedReader.java:182)
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess$CommandResultsReader.run(XMDJSONProcess.java:332)
+	at java.lang.Thread.run(Thread.java:745)
+23:33:25 ERROR : Zero sized response read from XMD. This indicates a communication error or a programming error.
+23:34:01 ERROR : Unexpected error while issuing command {"command": "xdisconnect 0"} to XMD: java.net.SocketException: Connection reset by peer: socket write error
+23:34:01 ERROR : Disconnect target failed.
+23:34:01 ERROR : Unable to disconnect from existing targets
+java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:329)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:308)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:212)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:58)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:830)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:823)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:946)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:314)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1580)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:270)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:147)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165)
+	at java.lang.Thread.run(Thread.java:745)
+23:43:45 INFO  : Registering command handlers for SDK TCF services
+23:43:45 INFO  : Launching XSCT server: xsct.bat -interactive C:\Xilinx\ECE532\ethernet_tutorial\ethernet_tutorial.sdk\temp_xsdb_launch_script.tcl
+23:43:51 INFO  : XSCT server has started successfully.
+23:43:51 INFO  : Successfully done setting XSCT server connection channel  
+23:44:28 INFO  : Successfully done setting SDK workspace  
+23:44:28 INFO  : Processing command line option -hwspec C:/Xilinx/ECE532/ethernet_tutorial/ethernet_tutorial.sdk/design_1_wrapper.hdf.
+23:44:28 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+23:44:51 INFO  : Processor reset is completed for microblaze_0
+23:45:28 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:45:31 INFO  : Processor reset is completed for microblaze_0
+23:46:05 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:46:09 INFO  : Processor reset is completed for microblaze_0
+23:47:02 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:47:08 INFO  : Processor reset is completed for microblaze_0
+23:48:18 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:48:19 INFO  : Processor reset is completed for microblaze_0
+23:49:12 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:49:13 INFO  : Processor reset is completed for microblaze_0
+23:51:50 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:51:54 INFO  : Processor reset is completed for microblaze_0
+23:54:13 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:54:21 INFO  : Processor reset is completed for microblaze_0
+23:56:33 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:56:35 INFO  : Processor reset is completed for microblaze_0
+00:02:45 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:02:46 INFO  : Processor reset is completed for microblaze_0
+00:05:00 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:05:04 INFO  : Processor reset is completed for microblaze_0
+00:06:52 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:06:54 INFO  : Processor reset is completed for microblaze_0
+00:12:43 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:12:47 INFO  : Processor reset is completed for microblaze_0
+00:14:30 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:14:33 INFO  : Processor reset is completed for microblaze_0
+00:19:34 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:19:36 INFO  : Processor reset is completed for microblaze_0
+00:20:27 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:20:30 INFO  : Processor reset is completed for microblaze_0
+00:26:32 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:26:37 INFO  : Processor reset is completed for microblaze_0
+00:32:45 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:32:46 INFO  : Processor reset is completed for microblaze_0
+00:38:54 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:39:39 INFO  : Processor reset is completed for microblaze_0
+00:40:53 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:40:55 INFO  : Processor reset is completed for microblaze_0
+00:42:09 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:42:10 INFO  : Processor reset is completed for microblaze_0
+00:42:56 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:43:22 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:43:26 INFO  : Processor reset is completed for microblaze_0
+00:45:41 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:45:57 INFO  : Processor reset is completed for microblaze_0
+00:51:07 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:51:10 INFO  : Processor reset is completed for microblaze_0
+00:53:07 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:53:20 INFO  : Processor reset is completed for microblaze_0
+01:03:41 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:03:44 INFO  : Processor reset is completed for microblaze_0
+01:05:05 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:05:11 INFO  : Processor reset is completed for microblaze_0
+01:06:52 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:06:53 INFO  : Processor reset is completed for microblaze_0
+01:07:52 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:07:59 INFO  : Processor reset is completed for microblaze_0
+01:09:04 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:09:09 INFO  : Processor reset is completed for microblaze_0
+01:09:58 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:10:00 INFO  : Processor reset is completed for microblaze_0
+01:14:14 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:14:20 INFO  : Processor reset is completed for microblaze_0
+01:15:28 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:15:34 INFO  : Processor reset is completed for microblaze_0
+01:20:32 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:20:39 INFO  : Processor reset is completed for microblaze_0
+01:21:50 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:21:54 INFO  : Processor reset is completed for microblaze_0
+01:23:10 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:23:14 INFO  : Processor reset is completed for microblaze_0
+01:26:27 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:26:28 INFO  : Processor reset is completed for microblaze_0
+01:29:05 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:29:08 INFO  : Processor reset is completed for microblaze_0
+01:30:43 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:30:45 INFO  : Processor reset is completed for microblaze_0
+01:31:34 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:31:36 INFO  : Processor reset is completed for microblaze_0
+01:33:03 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:33:04 INFO  : Processor reset is completed for microblaze_0
+01:34:24 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:34:25 INFO  : Processor reset is completed for microblaze_0
+01:35:31 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:35:32 INFO  : Processor reset is completed for microblaze_0
+01:36:50 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:36:52 INFO  : Processor reset is completed for microblaze_0
+01:39:28 INFO  : Refreshed build settings on project ethernet_tutorial
+01:46:25 INFO  : Refreshed build settings on project ethernet_tutorial
+01:49:41 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:49:45 INFO  : Processor reset is completed for microblaze_0
+01:50:31 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:50:34 INFO  : Processor reset is completed for microblaze_0
+01:51:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:51:56 INFO  : Processor reset is completed for microblaze_0
+01:52:50 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:52:52 INFO  : Processor reset is completed for microblaze_0
+01:54:13 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:54:14 INFO  : Processor reset is completed for microblaze_0
+01:54:46 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:54:48 INFO  : Processor reset is completed for microblaze_0
+01:55:54 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:55:55 INFO  : Processor reset is completed for microblaze_0
+01:58:15 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:58:16 INFO  : Processor reset is completed for microblaze_0
+01:59:25 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:59:27 INFO  : Processor reset is completed for microblaze_0
+02:02:45 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:02:55 INFO  : Processor reset is completed for microblaze_0
+02:03:32 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:03:54 INFO  : Processor reset is completed for microblaze_0
+02:17:54 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:17:57 INFO  : Processor reset is completed for microblaze_0
+02:18:33 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:18:34 INFO  : Processor reset is completed for microblaze_0
+02:20:53 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:20:55 INFO  : Processor reset is completed for microblaze_0
+02:21:48 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:21:52 INFO  : Processor reset is completed for microblaze_0
+02:26:12 INFO  : Refreshed build settings on project ethernet_tutorial
+02:28:57 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:28:59 INFO  : Processor reset is completed for microblaze_0
+02:29:49 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:02:52 INFO  : Launching XSCT server: xsct.bat -interactive C:\Xilinx\ECE532\ethernet_tutorial\ethernet_tutorial.sdk\temp_xsdb_launch_script.tcl
+10:02:54 INFO  : XSCT server has started successfully.
+10:02:57 INFO  : Successfully done setting XSCT server connection channel  
+10:02:57 INFO  : Successfully done setting SDK workspace  
+10:03:00 INFO  : Registering command handlers for SDK TCF services
+10:03:00 INFO  : Processing command line option -hwspec C:/Xilinx/ECE532/ethernet_tutorial/ethernet_tutorial.sdk/design_1_wrapper.hdf.
+10:03:01 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:20:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:20:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276723565B" && level==0} -index 0' command is executed.
+10:20:39 INFO  : FPGA configured successfully with bitstream "C:/Xilinx/ECE532/ethernet_tutorial/ethernet_tutorial.sdk/design_1_wrapper_hw_platform_0/download.bit"
+10:23:39 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+10:23:43 INFO  : Processor reset is completed for microblaze_0
+10:42:38 INFO  : Refreshed build settings on project ethernet_tutorial
+10:45:15 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:45:17 INFO  : Processor reset is completed for microblaze_0
+12:51:35 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:34:02 INFO  : Registering command handlers for SDK TCF services
+14:34:05 INFO  : Launching XSCT server: xsct.bat -interactive C:\Xilinx\ECE532\ethernet_tutorial\ethernet_tutorial.sdk\temp_xsdb_launch_script.tcl
+14:34:13 INFO  : XSCT server has started successfully.

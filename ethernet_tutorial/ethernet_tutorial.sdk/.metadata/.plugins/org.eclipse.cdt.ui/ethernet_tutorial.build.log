@@ -1,0 +1,6 @@
+10:45:12 **** Incremental Build of configuration Debug for project ethernet_tutorial ****
+make all 
+make: Nothing to be done for `all'.
+
+10:45:13 Build Finished (took 330ms)
+

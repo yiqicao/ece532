@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# 
+# Start of session at: Sun Mar 18 23:34:02 2018
+# Process ID: 3684
+# Current directory: C:/Xilinx/ECE532/ethernet_tutorial/ethernet_tutorial.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Xilinx/ECE532/ethernet_tutorial/ethernet_tutorial.sdk/webtalk/webtalk.log
+# Journal file: C:/Xilinx/ECE532/ethernet_tutorial/ethernet_tutorial.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
